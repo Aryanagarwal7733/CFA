@@ -7,7 +7,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white dark:bg-neutral-900 shadow-md backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/">
-          <Image src="/logo.jpeg" alt="Kalpi Capital Logo" width={120} height={30} />
+          <Image src="/kalpilogo.jpeg" alt="Kalpi Capital Logo" width={120} height={30} />
         </Link>
         <nav className="hidden md:flex gap-6 text-sm font-medium">
           <Link href="#about" className="hover:text-kalpiGreen">About</Link>
