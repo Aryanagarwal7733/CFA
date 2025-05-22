@@ -1,15 +1,13 @@
+// tailwind.config.js
 module.exports = {
-  darkMode: 'class', // ✅ Required
-  content: [
-    './src/**/*.{js,ts,jsx,tsx}',
-  ],
   theme: {
     extend: {
       colors: {
-        kalpiGreen: '#4CAF50',
-        kalpiDarkGreen: '#3d8b40',
+        primary: '#003366', // deep blue from Kalpi logo
+        accent: '#F4E8FF', // soft pastel violet
+        secondary: '#A5C9CA', // modern teal
+        dark: '#0F172A',
       },
     },
   },
-  plugins: [],
-}
+};
